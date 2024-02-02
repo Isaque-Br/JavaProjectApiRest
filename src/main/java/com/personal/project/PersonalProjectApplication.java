@@ -16,8 +16,8 @@ public class PersonalProjectApplication {
 	}
 
 	@GetMapping
-	public String hello() {						// Only Endpoint here
-		return ("Hello World");
+	public List<String> hello() {						// Only Endpoint here
+		return List.of ("Hello", "World");					// Chance Endpoint List for have a Jason back
 	}
 
 }
