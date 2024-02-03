@@ -1,0 +1,28 @@
+
+# Projeto Pessoal
+
+### Projeto API REST FULL 
+
+Este é um projeto pessoal desenvolvido para fins de estudo, no qual utilizarei as tecnologias Java e o framework Spring Boot com Maven. O objetivo principal é criar uma API RESTful utilizando o Spring Initializr para gerar as dependências necessárias, como Spring Web, Spring Data JPA e PostgreSQL Driver.
+
+O projeto servirá como base para o estudo e aprimoramento de conceitos relacionados à utilização do Spring Boot, bem como o desenvolvimento de APIs RESTful em Java.
+_________________________________
+
+A API RESTful será desenvolvida usando o Spring Boot, um framework para o desenvolvimento de aplicativos Java.
+
+1. 
+```bash
+O Maven será utilizado como gerenciador de dependências, facilitando a inclusão e atualização das bibliotecas necessárias para o projeto.
+```
+ 2. 
+```bash 
+O Spring Web fornecerá o suporte necessário para a criação de endpoints RESTful, permitindo que a aplicação interaja com diferentes clientes de maneira eficiente. 
+```
+ 3.
+```bash
+O Spring Data JPA será utilizado como camada de acesso a banco de dados, facilitando a integração com o PostgreSQL. 
+```
+ 4. 
+ ```bash
+O PostgreSQL Driver será o driver JDBC utilizado para estabelecer a conexão com o banco de dados PostgreSQL.
+``````

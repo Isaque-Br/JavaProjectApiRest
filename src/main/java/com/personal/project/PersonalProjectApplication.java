@@ -1,10 +1,13 @@
 package com.personal.project;
 
+import com.personal.project.student.Student;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.List;
 
 @SpringBootApplication
@@ -16,8 +19,15 @@ public class PersonalProjectApplication {
 	}
 
 	@GetMapping
-	public List<String> hello() {						// Only Endpoint here
-		return List.of ("Hello", "World");					// Chance Endpoint List for have a Jason back
+	public List<Student> student() {
+		return List.of(
+				new Student(
+						1L,
+						"Isaque",
+						"isaque@gmail.com",
+						LocalDate.of(1991, Month.SEPTEMBER, 11),
+						32
+				)
+		);
 	}
-
 }
